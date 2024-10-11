@@ -1,0 +1,53 @@
+h3 {
+  margin: 0;  
+  padding: 0;  
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li input[type="checkbox"] {
+  margin-right: 1em;
+  margin-left: -3em;
+}
+
+li button {
+  margin-left: 30em;
+  background-color: white;
+}
+
+button {
+  border: solid;
+  border-radius: 0;
+  padding: 0.7em 1.2em;
+}
+
+.save-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 0.85em 1.5em;
+}
+
+.input {
+  border-radius: 0;
+  padding: 0.7em 1.2em;
+}
+
+.tasks {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  margin-top: 1.5em;
+  justify-content: space-between;
+}
